@@ -13,7 +13,7 @@
 		DC20B1261CDC927D00074E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC20B11F1CDC927D00074E08 /* Assets.xcassets */; };
 		DC20B1271CDC927D00074E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC20B1201CDC927D00074E08 /* LaunchScreen.storyboard */; };
 		DC20B1281CDC927D00074E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC20B1221CDC927D00074E08 /* Main.storyboard */; };
-		DC20B12D1CDC932C00074E08 /* WFScrollToTopTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DC20B12C1CDC932C00074E08 /* WFScrollToTopTool.m */; };
+		DC20B1321CDC9F0000074E08 /* WFScrollToTopTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DC20B1311CDC9F0000074E08 /* WFScrollToTopTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		DC20B11F1CDC927D00074E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC20B1211CDC927D00074E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC20B1231CDC927D00074E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC20B12B1CDC932C00074E08 /* WFScrollToTopTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFScrollToTopTool.h; sourceTree = "<group>"; };
-		DC20B12C1CDC932C00074E08 /* WFScrollToTopTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFScrollToTopTool.m; sourceTree = "<group>"; };
+		DC20B1301CDC9F0000074E08 /* WFScrollToTopTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFScrollToTopTool.h; sourceTree = "<group>"; };
+		DC20B1311CDC9F0000074E08 /* WFScrollToTopTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFScrollToTopTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +61,7 @@
 		DC20B1011CDC922700074E08 /* WFKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				DC20B12E1CDC9F0000074E08 /* WFKit */,
 				DC20B1191CDC927D00074E08 /* Class */,
 				DC20B11E1CDC927D00074E08 /* Resource */,
 				DC20B1021CDC922700074E08 /* Supporting Files */,
@@ -80,7 +81,6 @@
 		DC20B1191CDC927D00074E08 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				DC20B1291CDC931D00074E08 /* WFKit */,
 				DC20B11A1CDC927D00074E08 /* AppDelegate.h */,
 				DC20B11B1CDC927D00074E08 /* AppDelegate.m */,
 				DC20B11C1CDC927D00074E08 /* ViewController.h */,
@@ -99,19 +99,19 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		DC20B1291CDC931D00074E08 /* WFKit */ = {
+		DC20B12E1CDC9F0000074E08 /* WFKit */ = {
 			isa = PBXGroup;
 			children = (
-				DC20B12A1CDC931D00074E08 /* WFScrollToTopTool */,
+				DC20B12F1CDC9F0000074E08 /* WFScrollToTopTool */,
 			);
 			path = WFKit;
 			sourceTree = "<group>";
 		};
-		DC20B12A1CDC931D00074E08 /* WFScrollToTopTool */ = {
+		DC20B12F1CDC9F0000074E08 /* WFScrollToTopTool */ = {
 			isa = PBXGroup;
 			children = (
-				DC20B12B1CDC932C00074E08 /* WFScrollToTopTool.h */,
-				DC20B12C1CDC932C00074E08 /* WFScrollToTopTool.m */,
+				DC20B1301CDC9F0000074E08 /* WFScrollToTopTool.h */,
+				DC20B1311CDC9F0000074E08 /* WFScrollToTopTool.m */,
 			);
 			path = WFScrollToTopTool;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 			files = (
 				DC20B1251CDC927D00074E08 /* ViewController.m in Sources */,
 				DC20B1241CDC927D00074E08 /* AppDelegate.m in Sources */,
-				DC20B12D1CDC932C00074E08 /* WFScrollToTopTool.m in Sources */,
+				DC20B1321CDC9F0000074E08 /* WFScrollToTopTool.m in Sources */,
 				DC20B1041CDC922700074E08 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +340,7 @@
 				DC20B1181CDC922700074E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
